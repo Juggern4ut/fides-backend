@@ -1,0 +1,14 @@
+{
+  "name": "fides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w --source-map true --output-style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-sass": "^2.3.0"
+  }
+}

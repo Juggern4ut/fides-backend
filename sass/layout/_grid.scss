@@ -1,0 +1,44 @@
+/// Ein Grid-System. Es unterstützt 2er, 3er und 4er Reihen.
+/// @author Lukas Meier
+/// @group Layout
+.row{
+    max-width: $grid-width;
+    margin: 0 auto;
+    
+    @include clearfix;
+
+    &:not(:last-child){
+        margin-bottom: $margin-default;
+    }
+    
+    [class^='row__col-']{
+        float: left;
+        &:not(:last-child){
+            margin-right: $margin-default;
+        }
+    }
+
+    &__col-1-of-2{
+        width: calc((100% - #{$margin-default})/2);
+    }
+    
+    &__col-1-of-3{
+        width: calc((100% - 2 * #{$margin-default}) / 3);
+    }
+
+    &__col-2-of-3{
+        width: calc(2 * ((100% - 2 * #{$margin-default}) / 3) + #{$margin-default});
+    }
+
+    &__col-1-of-4{
+        width: calc((100% - 3 * #{$margin-default}) / 4);
+    }
+
+    &__col-2-of-4{
+        width: calc(2 * ((100% - 3 * #{$margin-default}) / 4) + #{$margin-default});
+    }
+
+    &__col-3-of-4{
+        width: calc(3 * ((100% - 3 * #{$margin-default}) / 4) + (#{$margin-default}*2));
+    }
+}

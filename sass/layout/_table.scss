@@ -1,0 +1,28 @@
+.table{
+    width: 100%;
+
+    &__row{
+
+        &--role-1{
+            background-color: $color-primary;
+        }
+
+        &--role-2{
+            background-color: $color-secondary;
+        }
+
+        &--role-3{
+            background-color: $color-tertiary;
+        }
+    }
+
+    &__cell{
+        border: 1px solid #444;
+        padding: 1.5rem;
+
+        &--header{
+            font-weight: 700;
+        }
+
+    }
+}

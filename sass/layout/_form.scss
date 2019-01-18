@@ -1,0 +1,12 @@
+.form{
+    &__input{
+        border: 1px solid #444;
+        padding: 1rem;
+        display: block;
+        width: 30rem;
+
+        &:not(:last-child){            
+            margin-bottom: 1rem;
+        }
+    }
+}

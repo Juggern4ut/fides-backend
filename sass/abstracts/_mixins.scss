@@ -1,0 +1,11 @@
+/// Mixin welches dem ::after-Element das Attribute "clear: both" zuweist, um gefloatete Elemente zu clearen.
+/// Display table ist zur Verhinderung eines `top-margin`-Kollapses bei ::before Elementen. 
+/// @author Lukas Meier
+/// @group Abstracts
+@mixin clearfix{
+    &::after{
+        content: ' ';
+        clear: both;
+        display: table;
+    }
+}
