@@ -1,3 +1,10 @@
+Android | iOS | Windows
+:--- | :---: | ---:
+Google | *Apple* | Microsoft
+Samsung, Sony, **Huawei** | Iphone | PC
+fdjash fslahf lsahf djsafhdjsaklrh ejh ajfdhh jfdslha fjdlsah | fdafd ads | dafasd
+[Playstore](https://play.google.com) | [Itunes](https://itunes.com) | [Microsoft Store](https://microsoft.com)
+
 This is a sample text, including some **bold** text formated with \*\*
 
 This is a sample text, including some _italic_ text formated with \_
